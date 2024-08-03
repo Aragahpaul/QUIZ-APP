@@ -194,7 +194,7 @@ function selectAnswer(e) {
 function showScore() {
   resetState();
   questionElement.innerHTML = `You scored ${score} out of ${questions.length}! good job!`;
-  nextButton.innerHTML = "Play Again";
+  nextButton.innerHTML = "Try Again";
   nextButton.style.display = "block";
 }
 
